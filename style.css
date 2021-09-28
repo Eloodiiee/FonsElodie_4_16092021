@@ -324,7 +324,7 @@ a:hover {
 .nav > li {
   float: left;
   margin-top: 4px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -827,7 +827,23 @@ h4 {
   max-width: 600px;
   margin: auto auto auto auto;
 }
-
+@media (max-width: 1440px) {
+  .tight-width-whitespace {
+    max-width: 627px;
+    margin: auto auto auto auto;
+    font-size: 2rem;
+  }
+  .med-width-whitespace {
+    font-size: 1.7rem;
+  }
+  .citations {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: italic;
+    width: 84%;
+  }
+}
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
@@ -871,10 +887,14 @@ h4 {
     font-size: 1.1em;
   }
   .white {
-    font-size: 1.3em;
+    font-size: 1.8rem;
   }
   h3 {
     font-size: 16px;
+  }
+  .tight-width-whitespace {
+    max-width: 627px;
+    font-size: 2rem;
   }
 }
 @media (max-width: 500px) {
